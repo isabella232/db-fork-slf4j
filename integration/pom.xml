@@ -31,6 +31,18 @@
       <artifactId>slf4j-api</artifactId>
     </dependency>
 
+    <!-- Required for ant-run tests -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-nop</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+
     <!-- declaration to circumvent  http://jira.codehaus.org/browse/MANTRUN-95 -->
     <!--
     <dependency>
