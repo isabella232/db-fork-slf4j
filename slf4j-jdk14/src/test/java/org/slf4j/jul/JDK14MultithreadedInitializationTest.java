@@ -30,8 +30,10 @@ import java.util.logging.Handler;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.slf4j.testHarness.MultithreadedInitializationTest;
 
+@Ignore
 public class JDK14MultithreadedInitializationTest extends MultithreadedInitializationTest {
 
     java.util.logging.Logger julRootLogger = java.util.logging.Logger.getLogger("");
